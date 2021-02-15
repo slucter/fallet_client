@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+p,a
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* START */
+
+
+.wrap-dash
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+nav
+{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+}
+
+.my-nav-logo
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.my-nav-logo h1
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 40px;
+    color: #6379F4;
+}
+
+.my-menu-nav
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.profile-destop
+
+{
+    
+}
